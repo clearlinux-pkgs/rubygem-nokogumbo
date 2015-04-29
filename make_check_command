@@ -1,0 +1,1 @@
+pushd %{buildroot}%{gem_dir}/gems/nokogumbo-1.4.2 && ruby -I.:lib test-nokogumbo.rb && popd
